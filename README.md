@@ -33,7 +33,7 @@ Project structure:
 
 ### 1. Clone repository.
 ```bash
-git clone repo
+git clone https://github.com/VictorBenoiston/python_web_crawler
 ```
 
 ### 2. Install requirements.txt
