@@ -109,8 +109,3 @@ def extract_legal_moviments_2nd_instance(html):
 
     return moviment_elements
 
-
-# Footer note: use a variable that extract 1st or 2nd level, then set the span or div tag in order to be dynamic
-# if tjal, set to div, etc
-
-#  The json final template

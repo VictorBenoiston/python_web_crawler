@@ -105,15 +105,3 @@ def buscar_processo(api_input):
     except requests.exceptions.RequestException as e:
         print("Ocorreu um erro: ", e)
         return None
-
-
-"""
-Mock:
-
-api_input1 = "0014073-15.2016.8.06.0182"  # Irajane Alves Fontenele
-api_input2 = "0710802-55.2018.8.02.0001"  # José Carlos Cerqueira Souza Filho
-api_input3 = "0099480-39.2008.8.02.0001"  # Lucimar Jane Lira
-api_input4 = "0014073-15.2016.8.06.0182"  # Irajane Alves Fontenele
-api_input5 = "0137352-91.2019.8.06.0001"  # Benedito Gerson Marques
-api_input6 = "0200221-69.2022.8.06.0168"  # Maria Jose Sousa Rolim
-"""

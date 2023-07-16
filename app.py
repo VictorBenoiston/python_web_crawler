@@ -24,6 +24,3 @@ def get_data():
         return make_response(error_message, 400)
 
 app.run()
-
-
-
