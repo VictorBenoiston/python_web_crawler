@@ -1,5 +1,5 @@
-# Fask-RESTful API web
- ## About the project:
+# Flask-RESTful API web
+## About the project:
 This project defines itself as the development of an API able to retrieve data, from first and second instance (if there is), relying on different databases from different courts in Brazil. Crurently, we accept process numbers from TJAL and TJCE. The data retrieved is defined in:
 * Class (Classe);
 * Area (Área)
@@ -125,3 +125,7 @@ test_crawler.py::test_extract_legal_moviments_2nd_instance PASSED
 ------------------------------------------------------------------------------------
 6 passed in 0.20s
 ```
+
+## Limitations
+* Cases protected by passwords
+* Cases from outside the domain (Currently 'TJAL' and 'TJCE')
