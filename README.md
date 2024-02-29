@@ -38,7 +38,7 @@ git clone https://github.com/VictorBenoiston/python_web_crawler
 
 ### 2. Install requirements.txt
 ```bash
-pip3 isntall -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### 3. Run following commands
